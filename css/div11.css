@@ -1,0 +1,33 @@
+.wrapper {
+    width: 100%;
+    border: 2px yellow solid;
+    height: 34%;
+ 
+}
+.first {
+    border: 2px red solid;
+    width:30%;
+    float:left;
+    background-color: red;
+    height:98%;
+}
+.second {
+    
+    width:60%;
+    float:left;
+    height:100%;
+     background-color: black;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .first {
+        width: 100%;
+    }
+    .second {
+        width: 100%;
+    }
+   
+}
+}

@@ -1,0 +1,43 @@
+
+
+.container {
+	width:100%;
+	clear:both;
+}
+
+.left {
+	width:30%;
+	background-color: red;
+	float:left;
+	height: 26%;
+}
+
+.left1 {
+	width:50%;
+	background-color: blue;
+	float:left;
+	height: 90%;
+}
+
+.right {
+	width:20%;
+	background-color: red;
+	float:left;
+	height:60%;
+}
+.clear {
+    clear: both;
+}
+
+@media screen and (max-width: 768px){
+    .right {
+        width: 100%;
+    }
+    .left1 {
+        width: 100%;
+    }
+    .left {
+        width: 100%;
+    }
+}
+}

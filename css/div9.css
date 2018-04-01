@@ -1,0 +1,51 @@
+.wrapper {
+    width:100%;
+ 
+}
+.first {
+    
+    width:10%;
+    float:left;
+    background-color: blue;
+}
+.second {
+   
+    width:22%;
+    float:left;
+    background-color: green;
+}
+.third {
+    background-color:yellow;
+    width:8%;
+    float:left;
+}
+.four {
+    background-color:grey;
+    width:12%;
+    float:left;
+}
+
+
+
+.clear {
+    clear: both;
+}
+
+
+@media screen and (max-width: 768px){
+    .first  {
+        width: 100%;
+    }
+    .second  {
+        width: 100%;
+    }
+   
+   .third  {
+        width: 100%;
+    }
+   .four {
+    width:100%;
+   }
+   
+
+}

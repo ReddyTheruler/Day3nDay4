@@ -1,0 +1,36 @@
+
+.container {
+	width:100%;
+	
+}
+
+.left {
+	width:40%;
+	background-color: green;
+	float:left;
+	height: 70%;
+	border-style:dotted;
+    border-color:red;
+}
+.right {
+	width:40%;
+	background-color: blue;
+	float:left;
+	height:70%;
+	border-style:dashed;
+    border-color:yellow;
+}
+
+.clear {
+    clear: both;
+}
+
+@media screen and (max-width: 768px){
+    .right {
+        width: 100%;
+    }
+    .left {
+        width: 100%;
+    }
+}
+}

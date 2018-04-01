@@ -1,0 +1,29 @@
+
+.photosList {
+
+    display:inline-block;
+    width:90%;
+    text-align:center;
+    list-style-type:none;
+    
+}
+
+.photosList div {
+    border:1px solid black;
+    width:80px;
+    height:80px;
+    display:inline-block;
+    margin: 4px 2px;
+    text-align:center;
+
+}
+
+@media screen and (max-width: 768px){
+    .photolist {
+        width: 100%;
+    }
+    .photosList div {
+        width: 100%;
+    }
+   
+}

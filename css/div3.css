@@ -1,0 +1,41 @@
+.wrapper {
+    width:100%;
+ 
+}
+.first {
+    border: 2px solid red;
+    width:33%;
+    float:left;
+}
+.second {
+    border: 2px yellow solid;
+    width:33%;
+    float:left;
+}
+.third {
+    background-color:#bada55;
+    border: 2% blue solid;
+    width:33%;
+    float:left;
+}
+
+.clear {
+    clear: both;
+}
+
+
+@media screen and (max-width: 768px){
+    .first  {
+        width: 100%;
+    }
+    .second  {
+        width: 100%;
+    }
+   
+   .third  {
+        width: 100%;
+    }
+   
+   
+
+}

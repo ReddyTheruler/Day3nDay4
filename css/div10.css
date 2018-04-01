@@ -1,0 +1,17 @@
+
+
+.floating-box {
+    display: inline-block;
+    width: 10%;
+    height: 20%;
+    
+    border: 3px solid #73AD21;  
+}
+
+@media screen and (max-width: 768px){
+    .floating-box {
+        width: 100%;
+    }
+   
+}
+}
